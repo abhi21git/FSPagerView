@@ -10,7 +10,7 @@
 
 import UIKit
 
-class FSPagerCollectionView: UICollectionView {
+public class FSPagerCollectionView: UICollectionView {
     
     #if !os(tvOS)
     override var scrollsToTop: Bool {
